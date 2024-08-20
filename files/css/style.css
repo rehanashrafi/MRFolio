@@ -843,6 +843,7 @@ section .container {
 
 .resume .resume-item ul li {
     padding-bottom: 10px;
+    text-transform: uppercase;
 }
 
 .resume .resume-item:last-child {
@@ -893,17 +894,11 @@ section .container {
     overflow: hidden;
     border-radius: 50%;
     border: 5px solid var(--red);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .summary-img img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
     object-position: center;
-    border-radius: 50%;
 }
 
 .summary-content h2 {
